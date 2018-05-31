@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>drawImage </title>
+</head>
+<body>
+<script type="module">
+    import {ResourceLoader} from "./js/resourceLoader.js";
+    console.log('ad')
+    const loader=ResourceLoader.create();
+    loader.onLoaded(map=>{
+      console.log('da',map)
+    })
+</script>
+</body>
+</html>

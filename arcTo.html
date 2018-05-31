@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>介于两个切线之间的弧线</title>
+</head>
+<body>
+<canvas id="canvas"></canvas>
+<script>
+  // arcTo(x1,y1,x2,y2,r),弧起始坐标，终点坐标及半径
+    var canvas=document.getElementById('canvas');
+    var ctx=canvas.getContext('2d');
+    ctx.beginPath();
+    ctx.moveTo(20,20);// 创建开始点
+    ctx.lineTo(100,20);// 创建水平线
+    ctx.arcTo(160,20,160,70,50);// 创建弧
+
+    ctx.lineTo(160,120);// 创建垂直线
+    ctx.stroke();// 进行绘制
+</script>
+</body>
+</html>

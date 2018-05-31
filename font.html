@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>font </title>
+</head>
+<body>
+    <script>
+      // ctx.fillText(text,x,y,maxWidth);//文本、相对于文本的xy坐标，最大文本宽度（可选）
+      // context.textAlign="center|end|left|right|start";
+        var canvas=document.createElement('canvas');
+        canvas.width=500;
+        canvas.height=500;
+        document.body.appendChild(canvas);
+        var ctx=canvas.getContext('2d');
+        ctx.strokeStyle='#ef5350';
+        ctx.moveTo(200,0);
+        ctx.lineTo(200,200);
+        ctx.stroke();
+
+        ctx.moveTo(100,100);
+        ctx.lineTo(300,100);
+        ctx.stroke();
+
+        ctx.font='30px Arial';
+        ctx.textAlign='start';//文本在指定的位置开始。
+        ctx.fillText('Hello start',200,30);
+
+        ctx.font='20px Georgia';
+        ctx.textAlign="end";//文本在指定的位置结束
+        ctx.strokeText('Hello end',200,60);
+
+        ctx.font='20px Georgia';
+        ctx.textAlign="left";//文本在指定的位置开始。
+        ctx.strokeText('Hello left',200,90);
+
+        ctx.font='20px Georgia';
+        ctx.textAlign="right";//文本在指定的位置结束
+        ctx.strokeText('Hello right',200,120);
+
+        ctx.font='30px Vendana';
+        var grad=ctx.createLinearGradient(0,0,canvas.width,0);
+        grad.addColorStop(0,'magenta');
+        grad.addColorStop(0.5,'blue');
+        grad.addColorStop(1,'red');
+        ctx.strokeStyle=grad;
+        ctx.textAlign='center';//文本的中心被放置在指定的位置。
+        ctx.strokeText('Second center',200,150)
+    </script>
+</body>
+</html>

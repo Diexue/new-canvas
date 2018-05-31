@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>scale</title>
+</head>
+<body>
+<canvas id="canvas"></canvas>
+<script>
+    // ctx.scale(scalewidth,scaleheight);//参数表示缩放当前绘图的宽度,高度 (1=100%, 0.5=50%, 2=200%, 依次类推)
+    // 如果您对绘图进行缩放，所有之后的绘图也会被缩放。定位也会被缩放。如果您 scale(2,2)，那么绘图将定位于距离画布左上角两倍远的位置。
+    var canvas=document.getElementById('canvas');
+    var ctx=canvas.getContext('2d');
+    ctx.strokeRect(5,5,25,25);
+    ctx.scale(2,2);
+    ctx.strokeRect(5,5,25,15);
+    ctx.scale(2,2);//上次放大的基础上再放大2倍
+    ctx.strokeRect(5,5,25,15);
+</script>
+</body>
+</html>

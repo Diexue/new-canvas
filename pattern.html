@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Title</title>
+</head>
+<body>
+createPattern() 方法在指定的方向内重复指定的元素。
+<br>
+<button onclick="draw('repeat')">Repeat</button>
+<button onclick="draw('repeat-x')">Repeat-x</button>
+<button onclick="draw('repeat-y')">Repeat-y</button>
+<button onclick="draw('no-repeat')">No-repeat</button>
+<canvas id="canvas"width="500"height="500"></canvas>
+<script>
+  // createPattern() 方法在指定的方向内重复指定的元素,可以是图片、视频，或者其他 <canvas> 元素。
+  // context.createPattern(image,"repeat|repeat-x|repeat-y|no-repeat");
+//   参数	描述
+//   image	规定要使用的图片、画布或视频元素。
+// repeat	默认。该模式在水平和垂直方向重复。
+// repeat-x	该模式只在水平方向重复。
+// repeat-y	该模式只在垂直方向重复。
+// no-repeat	该模式只显示一次（不重复）。
+    function draw(dir) {
+      var c=document.getElementById('canvas');
+      var ctx=c.getContext('2d');
+      ctx.clearRect(0,0,c.width,c.height);
+      var image=new Image();
+      image.src='http://www.w3school.com.cn/i/lamp.gif';
+      var pat=ctx.createPattern(image,dir);
+      ctx.rect(0,0,150,100);
+      ctx.fillStyle=pat;
+      ctx.fill();
+    }
+</script>
+</body>
+</html>

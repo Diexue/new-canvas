@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>transform</title>
+</head>
+<body>
+<script>
+  // ctx.transform(a,b,c,d,e,f);
+  // transform() 允许您缩放、旋转、移动并倾斜当前的环境。
+  // a	水平缩放绘图   b水平倾斜绘图   c垂直倾斜绘图  d 垂直缩放绘图   e水平移动绘图  f垂直移动绘图
+    var canvas=document.createElement('canvas');
+    canvas.width=500;
+    canvas.height=500;
+    document.body.appendChild(canvas);
+    var ctx=canvas.getContext('2d');
+    ctx.fillStyle='#ef5350';
+    ctx.fillRect(0,0,250,100);
+
+    ctx.transform(1,0.5,-0.5,1,30,10);
+    ctx.fillStyle='green';
+    ctx.fillRect(0,0,250,100);
+
+    ctx.transform(1,0.5,-0.5,1,30,10);
+    ctx.fillStyle='blue';
+    ctx.fillRect(0,0,250,100)
+</script>
+</body>
+</html>

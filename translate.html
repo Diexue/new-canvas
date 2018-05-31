@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Title</title>
+</head>
+<body>
+<script>
+  // translate() 方法重新映射画布上的 (0,0) 位置
+  // 在位置 (10,10) 处绘制一个矩形，将新的 (0,0) 位置设置为 (70,70)。再次绘制新的矩形（请注意现在矩形从位置 (80,80) 开始绘制）：
+    var canvas = document.createElement('canvas');
+    canvas.width=500;
+    canvas.height=500;
+    document.body.appendChild(canvas);
+    var ctx=canvas.getContext('2d');
+    ctx.fillRect(10,10,100,50);
+    ctx.translate(70,70);
+    canvas.style.background=""
+    ctx.fillRect(10,10,100,50);
+
+</script>
+</body>
+</html>

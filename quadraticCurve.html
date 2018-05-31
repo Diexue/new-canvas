@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>赛贝尔曲线</title>
+</head>
+<body>
+<canvas id="canvas"width="500"height="500">
+
+</canvas>
+<script>
+  // ctx.quadraticCurveTo(cpx,cpy,x,y);二次赛贝尔曲线，参数表示贝塞尔控制点的xy坐标及结束点的xy坐标。
+    var canvas=document.getElementById('canvas');
+    var ctx=canvas.getContext('2d');
+    ctx.beginPath();
+    ctx.moveTo(20,20);
+    ctx.quadraticCurveTo(90,100,200,20);
+    ctx.stroke();
+
+  // ctx.bezierCurveTo(cp1x,cp1y,cp2x,cp2y,x,y);三次赛贝尔曲线，参数表示两个赛贝尔曲线的坐标，及结束点的坐标。
+    ctx.beginPath();
+    ctx.moveTo(20,200);
+    ctx.bezierCurveTo(20,300,200,300,200,200);
+    ctx.stroke()
+</script>
+</body>
+</html>

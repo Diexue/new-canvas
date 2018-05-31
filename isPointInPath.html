@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>isPointInPath</title>
+</head>
+<body>
+    <canvas id="canvas"></canvas>
+<script>
+  // 如果指定的点位于当前路径中，则返回 true，否则返回 false
+    var canvas=document.getElementById('canvas');
+    var ctx=canvas.getContext('2d');
+    ctx.rect(20,20,150,150);
+    if(ctx.isPointInPath(20,50)){
+      ctx.stroke();
+    }
+</script>
+</body>
+</html>

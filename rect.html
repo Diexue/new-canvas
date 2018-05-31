@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Title</title>
+</head>
+<body>
+    <canvas id="canvas"width="1000"height="1000"></canvas>
+    <canvas></canvas>
+<script>
+  // rect() 方法创建矩形ctx.rect(x,y,width,height);
+    var canvas=document.getElementById('canvas');
+    //getContext() 方法可返回一个对象，该对象提供了用于在画布上绘图的方法和属性
+    var ctx=canvas.getContext('2d');//
+    ctx.fillStyle='#ef5350';
+    ctx. shadowBlur=8;//阴影模糊级别number
+    ctx.shadowOffsetX=4;//shadowOffsetX 阴影距形状的水平距离
+    ctx.shadowOffsetY=4;//,shadowOffsetY 阴影距形状的垂直距离
+    ctx.shadowColor='green';//shadow颜色
+    ctx.fillRect(0,0,50,50);
+    ctx.fillRect(100,100,100,100);//(x,y,width,height)
+</script>
+</body>
+</html>

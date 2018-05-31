@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>arc</title>
+</head>
+<body>
+<canvas id="canvas"></canvas>
+<script>
+  // ctx.arc(x,y,r,sAngle,eAngle,counterclockwise);
+  //xy表示圆心坐标，r表示半径，sAngle,eAngle表示起始角和结束角，counterclockwise可选，false为顺时针，true为逆时针
+    var canvas=document.getElementById('canvas');
+    var ctx=canvas.getContext('2d');
+    ctx.beginPath();
+    ctx.arc(100,75,50,0,2*Math.PI);
+    ctx.stroke()
+</script>
+</body>
+</html>

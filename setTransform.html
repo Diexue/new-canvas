@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>setTransForm</title>
+</head>
+<body>
+<script>
+  // .setTransform(a,b,c,d,e,f);
+  // a  水平缩放绘图  b水平倾斜绘图 c垂直倾斜绘图 d垂直缩放绘图 e水平移动绘图 f垂直移动绘图
+  // 绘制一个矩形，通过 setTransform() 重置并创建新的变换矩阵，再次绘制矩形，重置并创建新的变换矩阵，然后再次绘制矩形。
+  // 请注意，每当您调用 setTransform() 时，它都会重置前一个变换矩阵然后构建新的矩阵，
+  // 因此在下面的例子中，不会显示红色矩形，因为它在蓝色矩形下面：
+
+
+    var canvas=document.createElement('canvas');
+    canvas.width=500;
+    canvas.height=500;
+    document.body.appendChild(canvas);
+    var ctx=canvas.getContext('2d');
+
+    ctx.fillStyle='yellow';
+    ctx.fillRect(0,0,250,100);
+
+    ctx.setTransform(1,0.5,-0.5,1,30,10);
+    ctx.fillStyle='red';
+    ctx.fillRect(0,0,250,100);
+
+    ctx.setTransform(2,0.5,-0.5,1,30,10);
+    ctx.fillStyle='blue';
+    ctx.fillRect(0,0,250,100);
+</script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>rotate旋转</title>
+    <style>
+        #canvas{
+            background: aqua;
+        }
+    </style>
+</head>
+<body>
+<canvas id="canvas"width="500"height="500"></canvas>
+<a href="rotate2.html">rotate2</a>
+<script>
+    //ctx.rotate(angle);//旋转角度，以弧度计。
+    // 如需将角度转换为弧度，请使用 degrees*Math.PI/180 公式进行计算。
+    var canvas=document.getElementById('canvas');
+    var ctx=canvas.getContext('2d');
+    ctx.rotate(10*Math.PI/180);//旋转20度
+    ctx.fillRect(200,225,100,50)
+</script>
+</body>
+</html>

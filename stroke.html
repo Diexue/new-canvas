@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Title</title>
+</head>
+<body>
+<canvas id="canvas"height="1000"width="1000"></canvas>
+<script>
+    var canvas=document.getElementById('canvas');
+    var ctx=canvas.getContext('2d');
+    var grd=ctx.createLinearGradient(20,0,170,0);
+    grd.addColorStop(0,'#ef5350');
+    grd.addColorStop(0.5,'green');
+    grd.addColorStop(1,'blue');
+    ctx.strokeStyle=grd;
+    ctx.lineWidth=5;
+    ctx.strokeRect(20,20,170,100);
+//相当于ctx.react(20,20,170,100);ctx.stroke();
+    //绘制文字strokeText
+    // context.strokeText(text,x,y,maxWidth);文本，起始xy坐标，允许最大的文本宽度
+
+    ctx.font="30px Verdana";
+    var grd2=ctx.createLinearGradient(0,0,canvas.width,0);
+    grd2.addColorStop(0,'magenta');
+    grd2.addColorStop(0.5,'blue');
+    grd2.addColorStop(1,'red');
+    ctx.strokeStyle=grd2;
+    ctx.lineWidth=1;
+    var text='Welcome canvas';
+    ctx.strokeText(text,200,50);
+    // setTimeout(()=>{
+    //   ctx.clearRect(200,0,300,200);
+    // },1000)
+    let a=0;
+    let dra=setInterval(function () {
+      ctx.clearRect(200,0,300,200);
+      a+=1;
+      if(a==text.length){
+        clearInterval(dra)
+      }
+      ctx.strokeText(text.substring(0,a),200,50);
+    },200)
+
+</script>
+</body>
+</html>

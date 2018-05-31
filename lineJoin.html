@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>lineJoin</title>
+</head>
+<body>
+<canvas id="canvas"></canvas>
+<script>
+  // lineJoin 属性设置或返回所创建边角的类型，当两条线交汇时。
+//   bevel	创建斜角。
+// round	创建圆角。
+// miter	默认。创建尖角。
+    var canvas=document.getElementById('canvas');
+    var ctx=canvas.getContext('2d');
+    ctx.beginPath();
+    ctx.moveTo(20,10);
+    ctx.lineTo(80,50);
+    ctx.lineTo(20,90);
+    ctx.lineWidth=10;
+    ctx.lineJoin='round';
+    ctx.stroke();
+
+    ctx.beginPath();
+    ctx.moveTo(60,10);
+    ctx.lineJoin='bevel';
+    ctx.lineTo(120,50);
+    ctx.lineTo(60,90);
+    ctx.stroke();
+
+    ctx.beginPath();
+    ctx.moveTo(100,10);
+    ctx.lineTo(160,50);
+    ctx.lineTo(100,90);
+    ctx.lineJoin='miter';
+    ctx.stroke();
+
+    ctx.beginPath();
+    ctx.lineWidth=10;
+    ctx.lineJoin='miter';
+    ctx.miterLimit=3;//miterLimit 属性设置或返回最大斜接长度(斜接长度指的是在两条线交汇处内角和外角之间的距离。)
+    ctx.moveTo(140,10);
+    ctx.lineTo(200,50);
+    ctx.lineTo(140,90);
+    ctx.stroke();
+</script>
+</body>
+</html>

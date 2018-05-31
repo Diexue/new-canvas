@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Title</title>
+</head>
+<body>
+    <canvas id="canvas"height="2000"width="2000"></canvas>
+<script>
+    var canvas=document.getElementById('canvas');
+    var ctx=canvas.getContext('2d');
+    // createLinearGradient创建线性对象
+    // context.createLinearGradient(x0,y0,x1,y1);分别表示渐变的起点和终点坐标
+    var grd=ctx.createLinearGradient(0,0,200,200);
+    grd.addColorStop(0,'#efefef');
+    grd.addColorStop(1,'#ef5350');
+    ctx.fillStyle=grd;
+    ctx.fillRect(0,0,300,300);
+
+    var grd2=ctx.createLinearGradient(0,310,0,410);
+    grd2.addColorStop(0,'green');//	规定渐变对象中的颜色和停止位置
+    grd2.addColorStop(0.5,'#fff');
+    grd2.addColorStop(1,'#ef5350');
+    ctx.fillStyle=grd2;
+    ctx.fillRect(0,310,200,100);
+</script>
+</body>
+</html>
