@@ -1,7 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="635d1022-550b-4209-a652-96c056158a5f" name="Default" comment="" />
+    <list default="true" id="635d1022-550b-4209-a652-96c056158a5f" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/an.html" afterPath="$PROJECT_DIR$/demo/an.html" />
+      <change beforePath="$PROJECT_DIR$/arc.html" afterPath="$PROJECT_DIR$/demo/arc.html" />
+      <change beforePath="$PROJECT_DIR$/arcTo.html" afterPath="$PROJECT_DIR$/demo/arcTo.html" />
+      <change beforePath="$PROJECT_DIR$/drawImage.html" afterPath="$PROJECT_DIR$/demo/drawImage.html" />
+      <change beforePath="$PROJECT_DIR$/font.html" afterPath="$PROJECT_DIR$/demo/font.html" />
+      <change beforePath="$PROJECT_DIR$/gradient.html" afterPath="$PROJECT_DIR$/demo/gradient.html" />
+      <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change beforePath="$PROJECT_DIR$/isPointInPath.html" afterPath="$PROJECT_DIR$/demo/isPointInPath.html" />
+      <change beforePath="$PROJECT_DIR$/line-cap.html" afterPath="$PROJECT_DIR$/demo/line-cap.html" />
+      <change beforePath="$PROJECT_DIR$/lineJoin.html" afterPath="$PROJECT_DIR$/demo/lineJoin.html" />
+      <change beforePath="$PROJECT_DIR$/pattern.html" afterPath="$PROJECT_DIR$/demo/pattern.html" />
+      <change beforePath="$PROJECT_DIR$/quadraticCurve.html" afterPath="$PROJECT_DIR$/demo/quadraticCurve.html" />
+      <change beforePath="$PROJECT_DIR$/rect.html" afterPath="$PROJECT_DIR$/demo/rect.html" />
+      <change beforePath="$PROJECT_DIR$/rotate.html" afterPath="$PROJECT_DIR$/demo/rotate.html" />
+      <change beforePath="$PROJECT_DIR$/rotate2.html" afterPath="$PROJECT_DIR$/demo/rotate2.html" />
+      <change beforePath="$PROJECT_DIR$/scale.html" afterPath="$PROJECT_DIR$/demo/scale.html" />
+      <change beforePath="$PROJECT_DIR$/setTransform.html" afterPath="$PROJECT_DIR$/demo/setTransform.html" />
+      <change beforePath="$PROJECT_DIR$/stroke.html" afterPath="$PROJECT_DIR$/demo/stroke.html" />
+      <change beforePath="$PROJECT_DIR$/transform.html" afterPath="$PROJECT_DIR$/demo/transform.html" />
+      <change beforePath="$PROJECT_DIR$/translate.html" afterPath="$PROJECT_DIR$/demo/translate.html" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -15,7 +36,7 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="translate.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/translate.html">
+        <entry file="file://$PROJECT_DIR$/demo/translate.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="396">
               <caret line="18" column="30" lean-forward="true" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
@@ -25,7 +46,7 @@
         </entry>
       </file>
       <file leaf-file-name="transform.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/transform.html">
+        <entry file="file://$PROJECT_DIR$/demo/transform.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="356">
               <caret line="20" column="19" lean-forward="false" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
@@ -35,7 +56,7 @@
         </entry>
       </file>
       <file leaf-file-name="setTransform.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/setTransform.html">
+        <entry file="file://$PROJECT_DIR$/demo/setTransform.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
               <caret line="10" column="12" lean-forward="false" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
@@ -45,7 +66,7 @@
         </entry>
       </file>
       <file leaf-file-name="font.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/font.html">
+        <entry file="file://$PROJECT_DIR$/demo/font.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="114">
               <caret line="38" column="42" lean-forward="false" selection-start-line="38" selection-start-column="42" selection-end-line="38" selection-end-column="42" />
@@ -55,10 +76,10 @@
         </entry>
       </file>
       <file leaf-file-name="drawImage.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/drawImage.html">
+        <entry file="file://$PROJECT_DIR$/demo/drawImage.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="198">
-              <caret line="9" column="56" lean-forward="false" selection-start-line="9" selection-start-column="56" selection-end-line="9" selection-end-column="56" />
+              <caret line="9" column="57" lean-forward="false" selection-start-line="9" selection-start-column="57" selection-end-line="9" selection-end-column="57" />
               <folding />
             </state>
           </provider>
@@ -84,7 +105,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="44">
@@ -104,7 +125,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-18">
@@ -123,6 +144,9 @@
         <option value="JavaScript File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -169,12 +193,13 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="-1939" />
     <option name="y" value="92" />
     <option name="width" value="1701" />
     <option name="height" value="906" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -197,11 +222,6 @@
               <item name="new-canvas" type="b2602c69:ProjectViewProjectNode" />
               <item name="new-canvas" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="new-canvas" type="b2602c69:ProjectViewProjectNode" />
-              <item name="new-canvas" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -221,6 +241,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\practice\new-canvas\demo" />
       <recent name="F:\practice\new-canvas\js" />
       <recent name="F:\practice\new-canvas\images" />
     </key>
@@ -254,15 +275,15 @@
       <option name="presentableId" value="Default" />
       <updated>1527665127802</updated>
       <workItem from="1527665129190" duration="11061000" />
-      <workItem from="1527728044709" duration="18635000" />
+      <workItem from="1527728044709" duration="18890000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29696000" />
+    <option name="totallyTimeSpent" value="29951000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1939" y="92" width="1701" height="906" extended-state="1" />
+    <frame x="-1939" y="92" width="1701" height="906" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17378232" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -270,9 +291,9 @@
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32945737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32988358" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -295,7 +316,7 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/rect.html">
+    <entry file="file://$PROJECT_DIR$/demo/rect.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="12" column="39" lean-forward="false" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
@@ -303,7 +324,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pattern.html">
+    <entry file="file://$PROJECT_DIR$/demo/pattern.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="550">
           <caret line="25" column="44" lean-forward="false" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
@@ -311,7 +332,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gradient.html">
+    <entry file="file://$PROJECT_DIR$/demo/gradient.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="462">
           <caret line="21" column="51" lean-forward="false" selection-start-line="21" selection-start-column="51" selection-end-line="21" selection-end-column="51" />
@@ -319,7 +340,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/an.html">
+    <entry file="file://$PROJECT_DIR$/demo/an.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1650">
           <caret line="75" column="7" lean-forward="false" selection-start-line="75" selection-start-column="7" selection-end-line="75" selection-end-column="7" />
@@ -338,7 +359,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/line-cap.html">
+    <entry file="file://$PROJECT_DIR$/demo/line-cap.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="10" column="5" lean-forward="false" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
@@ -346,7 +367,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lineJoin.html">
+    <entry file="file://$PROJECT_DIR$/demo/lineJoin.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="990">
           <caret line="45" column="17" lean-forward="true" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="17" />
@@ -354,7 +375,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stroke.html">
+    <entry file="file://$PROJECT_DIR$/demo/stroke.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="638">
           <caret line="29" column="20" lean-forward="false" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
@@ -362,7 +383,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/an.html">
+    <entry file="file://$PROJECT_DIR$/demo/an.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1650">
           <caret line="75" column="7" lean-forward="false" selection-start-line="75" selection-start-column="7" selection-end-line="75" selection-end-column="7" />
@@ -373,7 +394,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/quadraticCurve.html">
+    <entry file="file://$PROJECT_DIR$/demo/quadraticCurve.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
           <caret line="23" column="35" lean-forward="false" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
@@ -381,7 +402,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/arcTo.html">
+    <entry file="file://$PROJECT_DIR$/demo/arcTo.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
@@ -389,7 +410,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/arc.html">
+    <entry file="file://$PROJECT_DIR$/demo/arc.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
           <caret line="11" column="79" lean-forward="false" selection-start-line="11" selection-start-column="79" selection-end-line="11" selection-end-column="79" />
@@ -397,7 +418,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pattern.html">
+    <entry file="file://$PROJECT_DIR$/demo/pattern.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
           <caret line="25" column="44" lean-forward="false" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
@@ -405,7 +426,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lineJoin.html">
+    <entry file="file://$PROJECT_DIR$/demo/lineJoin.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="862">
           <caret line="45" column="17" lean-forward="false" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="17" />
@@ -413,7 +434,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/line-cap.html">
+    <entry file="file://$PROJECT_DIR$/demo/line-cap.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="70">
           <caret line="10" column="5" lean-forward="false" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
@@ -421,7 +442,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gradient.html">
+    <entry file="file://$PROJECT_DIR$/demo/gradient.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="246">
           <caret line="21" column="51" lean-forward="false" selection-start-line="21" selection-start-column="51" selection-end-line="21" selection-end-column="51" />
@@ -429,7 +450,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stroke.html">
+    <entry file="file://$PROJECT_DIR$/demo/stroke.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="26">
           <caret line="29" column="20" lean-forward="false" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
@@ -437,7 +458,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rect.html">
+    <entry file="file://$PROJECT_DIR$/demo/rect.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="12" column="39" lean-forward="false" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
@@ -445,7 +466,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/isPointInPath.html">
+    <entry file="file://$PROJECT_DIR$/demo/isPointInPath.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
           <caret line="11" column="49" lean-forward="true" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
@@ -453,7 +474,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scale.html">
+    <entry file="file://$PROJECT_DIR$/demo/scale.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="8" column="29" lean-forward="true" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
@@ -461,7 +482,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rotate.html">
+    <entry file="file://$PROJECT_DIR$/demo/rotate.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
           <caret line="14" column="21" lean-forward="false" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
@@ -469,7 +490,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rotate2.html">
+    <entry file="file://$PROJECT_DIR$/demo/rotate2.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
           <caret line="18" column="21" lean-forward="true" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
@@ -477,7 +498,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/translate.html">
+    <entry file="file://$PROJECT_DIR$/demo/translate.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
           <caret line="18" column="30" lean-forward="true" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
@@ -485,7 +506,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/transform.html">
+    <entry file="file://$PROJECT_DIR$/demo/transform.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="356">
           <caret line="20" column="19" lean-forward="false" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
@@ -501,7 +522,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/setTransform.html">
+    <entry file="file://$PROJECT_DIR$/demo/setTransform.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="10" column="12" lean-forward="false" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
@@ -509,7 +530,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/font.html">
+    <entry file="file://$PROJECT_DIR$/demo/font.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="38" column="42" lean-forward="false" selection-start-line="38" selection-start-column="42" selection-end-line="38" selection-end-column="42" />
@@ -525,14 +546,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-18">
-          <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/resource.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -541,10 +554,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/drawImage.html">
+    <entry file="file://$PROJECT_DIR$/demo/drawImage.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
-          <caret line="9" column="56" lean-forward="false" selection-start-line="9" selection-start-column="56" selection-end-line="9" selection-end-column="56" />
+          <caret line="9" column="57" lean-forward="false" selection-start-line="9" selection-start-column="57" selection-end-line="9" selection-end-column="57" />
           <folding />
         </state>
       </provider>
@@ -569,6 +582,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
           <caret line="2" column="21" lean-forward="false" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-18">
+          <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
           <folding />
         </state>
       </provider>
